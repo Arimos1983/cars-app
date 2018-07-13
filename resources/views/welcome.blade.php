@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Cars</title>
 
         
         
     </head>
     <body>
-        {{ "Welcome to Cars Project" }}
+        {{ "Welcome $name"}} <br>
+        {{ " I'm $age years old" }}
     </body>
 </html>
