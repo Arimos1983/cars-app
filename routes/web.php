@@ -22,3 +22,5 @@ Route::get('/abouts', function () {
     return view('abouts', compact("about"));
 });
 
+Route::get('/cars', 'CarsController@index' );
+
