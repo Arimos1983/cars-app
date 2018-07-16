@@ -7,13 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <ul>
-    @foreach($cars as $car)
-    <li>
-    {{ $car->title }}
-    {{ $car->producer }}
-    </li>
-    @endforeach
-    </ul>
+    
+    {{ $cars->title }}
+    {{ $cars->producer }}
+    
 </body>
 </html>
